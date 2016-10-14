@@ -7,10 +7,11 @@ enableProdMode();
 
 @Component({
     selector: `my-app`,
-    template: `<div>Hello from </div>`
+    template: `<div>Hello from Angular2 in TypeScript.</div>`
 })
 
 export class MyApp {
+    id:number = 3;
     model = new MyModel();
     getCompiler() {
         return this.model.compiler;
