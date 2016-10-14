@@ -8,12 +8,12 @@
 <script>
     System.config({
         packages: {
-            '/Scripts/App': {
+            '/app': {
                 format: 'cjs',
                 defaultExtension: 'js'
             }
         }
     });
-    System.import('/Scripts/App/main').then(null, console.error.bind(console));
+    System.import('/app/main').then(null, console.error.bind(console));
 </script>
 <my-app>Loading...</my-app>
