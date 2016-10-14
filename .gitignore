@@ -1,0 +1,8 @@
+packages/*
+.vs/*
+*.dll
+*.pdb
+TypeScriptSite/bin/*
+TypeScriptSite/node_modules/*
+TypeScriptSite/obj/*
+TypeScriptSite/Scripts/*
